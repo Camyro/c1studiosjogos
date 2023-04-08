@@ -1,0 +1,109 @@
+html{
+    color: white;
+    background: #470E0E;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li img{
+    width: 90px;
+    height: 23px;
+}
+
+nav ul li p{
+    color: rgb(235, 0, 0);
+    font-size: 25px;
+}
+
+nav ul li .content{
+    padding: 0px 34px;
+}
+
+a, span{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.apps{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.apps a img{
+    width: 130px;
+    height: 130px;
+    border-radius: 10%;
+
+}
+
+.apps ul{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    align-items: center;
+    justify-self: center;
+}
+
+
+
+.rodape{
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+span{
+    padding: 2px;
+}
+
+.rodape a {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+a:hover, p:hover, h2:hover, span:hover{
+    color: rgb(235, 0, 0);
+}
+
+.rodape p{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .apps{
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+
+}
