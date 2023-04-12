@@ -26,6 +26,10 @@ nav ul li img{
     height: 23px;
 }
 
+nav ul li p{
+    color: rgb(235, 0, 0);
+}
+
 nav ul li .content{
     padding: 0px 34px;
 }
