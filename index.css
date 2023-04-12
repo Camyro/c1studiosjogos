@@ -17,8 +17,9 @@ body{
 nav ul{
     display: flex;
     list-style-type: none;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
+    padding: 0;
 }
 
 nav ul li img{
@@ -28,10 +29,6 @@ nav ul li img{
 
 nav ul li p{
     color: rgb(235, 0, 0);
-}
-
-nav ul li .content{
-    padding: 0px 34px;
 }
 
 a, span{
