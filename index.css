@@ -26,28 +26,49 @@ body::-webkit-scrollbar-thumb {
     border: 3px solid rgba(71, 14, 14, 1);
 }
 
-nav ul{
+/*Navegaçao*/
+.nav{
+    position:fixed;
+    width: 100%;
+    height: 10%;
     display: flex;
     list-style-type: none;
     justify-content: space-around;
     align-items: center;
-    padding: 0;
+    background-image: linear-gradient(#470e0e, #88888800);
 }
 
-nav ul li img{
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px 25px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.nav li{
+    padding: 0px 10px;
+}
+
+.nav img{
     width: 90px;
     height: 23px;
 }
 
-nav ul li p{
-    color: rgb(235, 0, 0);
+.nav ul li p{
+    color: #ffffff;
 }
 
 a, span{
-    color: white;
-    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;  
 }
 
+a{
+    display: flex;
+    align-items: center;
+    align-self: center;  
+}
 
 
 
@@ -72,14 +93,23 @@ a, span{
     justify-self: center;
 }
 
+.app1{
+    padding: 30px 10px 10px 10px;
+}
 
 
+
+/*Rodape*/
 .rodape{
     display: flex;
     margin: 0;
     justify-content: space-around;
     align-items: center;
-    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    background-image: linear-gradient(#88888800, #470e0e);
 }
 
 span{
@@ -95,7 +125,13 @@ span{
     font-size: 12px;
 }
 
-a:hover, p:hover, h2:hover, span:hover{
+.rodape p{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+a:hover, .rodape p:hover, span:hover, .nav p:hover{
     color: rgb(235, 0, 0);
 }
 
